@@ -12,3 +12,12 @@ ssh user@IP            # step 4:  Verify access
 ```
 
 ### [How to Login to SSH Without A Password Using Private Key?](https://www.geeksforgeeks.org/linux-unix/how-to-login-to-ssh-without-a-password-using-private-key/)
+
+## DNS lookup 
+
+### [How to Use dig and nslookup In Linux](https://www.tecmint.com/install-dig-and-nslookup-in-linux/)
+
+### COMMANDS
+```
+sudo apt install dnsutils
+```
