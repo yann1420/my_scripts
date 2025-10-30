@@ -4,8 +4,7 @@
 ```
 ssh-keygen             # Step 1: Public and Private Key Generation
 
-cd ~/.ssh
-chmod 600 id_rsa       # Step 2:  Change Permissions
+chmod 600 ~/.ssh/id_rsa       # Step 2:  Change Permissions
 
 ssh-copy-id user@IP    # Step 3:  Configure Server
 
