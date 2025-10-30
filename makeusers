@@ -1,4 +1,3 @@
-```
 #!/bin/bash
 
 [[ ${EUID} -ne 0 ]] && {
@@ -57,4 +56,3 @@ adduser --gecos '' --home /home/${Uname} --shell /bin/bash -UID ${NEWGID} -GID $
 ((NEWGID++))
 
 done
-```
