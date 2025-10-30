@@ -1,11 +1,15 @@
-`#!/bin/bash
+```
+#!/bin/bash
 
 [[ ${EUID} -ne 0 ]] && {
 printf "Must be run as root. Try 'sudo $0'\n"
 exit 1
 }
 
-usage() { echo -e "Usage: $0 -u FIRST-UID username1 [username2 ... ] \nTry: ${0} -u 10000 john paul george ringo" 1>&2 ; exit 1; }
+usage() { 
+  echo -e "Usage: $0 -u FIRST-UID username1 [username2 ... ] \nTry: ${0} -u 10000 john paul george ringo" 1>&2 
+  exit 1; 
+}
 
 while getopts ":u:" o; do
 case "${o}" in
@@ -52,4 +56,5 @@ adduser --gecos '' --home /home/${Uname} --shell /bin/bash -UID ${NEWGID} -GID $
 ((NEWUID++))
 ((NEWGID++))
 
-done`
+done
+```
