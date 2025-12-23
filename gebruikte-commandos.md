@@ -11,7 +11,7 @@ ssh-copy-id user@IP    # Step 3:  Configure Server
 ssh user@IP            # step 4:  Verify access
 ```
 
-### [How to Login to SSH Without A Password Using Private Key?](https://www.geeksforgeeks.org/linux-unix/how-to-login-to-ssh-without-a-password-using-private-key/)
+### [How to Login to SSH Without A Password Using Private Key?](https://www.geeksforgeeks.org/linux-unix/how-to-login-to-ssh-without-a-password-using-private-key/) [Or look here](https://linuxize.com/post/how-to-setup-passwordless-ssh-login/)
 
 ## DNS lookup 
 
