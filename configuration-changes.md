@@ -1,4 +1,4 @@
-# Configuraion Changes
+# Configuration Changes
 
 ## Console settings for Macbook air A1477
 
