@@ -21,3 +21,12 @@ ssh user@IP            # step 4:  Verify access
 ```
 sudo apt install dnsutils
 ```
+## Install Nextcloud in Docker
+
+### [Docker install](https://docs.docker.com/engine/install/)
+
+### Nextcloud install [https://nextcloud.com/blog/how-to-install-the-nextcloud-all-in-one-on-linux/](https://nextcloud.com/blog/how-to-install-the-nextcloud-all-in-one-on-linux/)
+
+### MacBook Air model A1466
+
+insert live CD and select OS by pressing left ALT key after boot
