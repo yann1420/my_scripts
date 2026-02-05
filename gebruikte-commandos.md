@@ -30,3 +30,17 @@ sudo apt install dnsutils
 ### MacBook Air model A1466
 
 insert live CD and select OS by pressing left ALT key after boot
+
+### Completely Disable Suspend/Hibernate in Ubuntu 
+1. Edit /etc/systemd/sleep.conf\
+2. When file opens, scroll down and set following rules under [Sleep] section:
+
+```
+AllowSuspend=no
+AllowHibernation=no
+AllowSuspendThenHibernate=no
+AllowHybridSleep=no
+
+
+
+```
